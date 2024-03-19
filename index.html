@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Durai
+        <span>Samy</span></a>
+        
+        <!-- <div class='bx bx-menu' id="menu-icon"></div> -->
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#projects" >Projects</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>DuraiSamy</span></h1>
+            <h3 class="text-animation"> I'm a <span></span></h3>
+            <p>I'm a Mern stack developer adept at crafting proficient projcts and solving complex challenges.
+                i have both frontend and backend developmnt, ensuring seamless performance and optimal user experience.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/duraisamy-v/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/duraisamy-git?tab=repositories"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxs-envelope' ></i></a>
+                
+            </div>
+
+            <div class="btn-group">
+                
+                   <a href="https://drive.google.com/file/d/18pfr0JDpTRvz3qLCXIIayJDyNq5gxVjs/view" 
+                   rel="noreferrer"
+                   target="_blank"
+                   class="btn" >Resume</a>
+                  
+                
+                  <a href="#contact" class="btn">Contact </a>
+                    
+        
+                
+                
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./assets/profile2.png" alt="">
+        </div>
+    </section>
+        
+    <!-- about section -->
+
+    <section class="about" id="about">
+         
+          
+            <div class="about-img">
+                <img src="./assets/profile3.png"  alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Mern Stack Developer</h3>
+                <p>My name is Duraisamy. i'm a MERN-Full Stack Developer. <br />
+                
+                    Passionate MERN stack developer with expertise in both front-end and back-end development. 
+                    Committed to continuous learning and growth, adept at creating web applications with meticulously crafted layouts. 
+                    Always seeking new challenges to expand skillset and enhance development capabilities.
+                </p>
+                <a href="#contact" class="btn">Read More</a>
+            </div>
+    
+       
+    </section>
+      
+    <!-- skill section -->
+    <section class="skills" id="skills">
+         <h2 class="heading-skill">Skills</h2>
+         <div class="container">
+           <div class="row" id="skillsContainer">
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=20909&format=png' alt='html-img' className='skill-img ' />
+                    <span>Html</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=21278&format=png' alt='css-img' className='logo-img ' />
+                    <span>Css</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=108784&format=png' alt='js-img' className='logo-img ' />
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=mRiGJYwO8l6B&format=png' alt='bootstrap-img' />
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png' alt='react-js-img'  />
+                    <span>React js</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png' alt='redux-img'/>
+                    <span>Redux Js</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png' alt='nodejs-img' className='logo-img ' />
+                    <span>Node Js</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src='https://img.icons8.com/?size=100&id=74402&format=png' alt='mongodb-img' className='logo-img ' />
+                    <span>Mongo Db</span>
+                </div>
+            </div>
+            
+           </div>
+        </div>
+           
+    
+
+    </section>
+    <!-- project section -->
+    <section class="projects" id="projects">
+       <h2 class="heading-project"> <span>My</span>  Projects</h2>
+       <div class="project-container">
+           <div class="project-box">
+            <img src="./assets/project1.png" alt="social media" class="project-img">
+            <div class="project-layer">
+                <h4>Social media app</h4>
+                <a href="https://social-media-duraismay-72b431.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/FrontEnd-Social-media" class="btn-btn">Github</a>
+            </div>
+           </div>
+           <div class="project-box">
+            <img src="./assets/project5.png" alt="land page" class="project-img">
+            <div class="project-layer">
+                <h4>Landing Page</h4>
+                <a href="https://techiee-landing-page-63f.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/PRODIGY_WD_01" class="btn-btn">Github</a>
+            </div>
+           </div>
+           <div class="project-box">
+            <img src="./assets/project2.png" class="project-img" alt="weather app">
+            <div class="project-layer">
+                <h4>Weather app</h4>
+                <a href="https://weather-app-c98250.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/Bharat_Intern_weatherapp" class="btn-btn">Github</a>
+            </div>
+           </div>
+           <div class="project-box">
+            <img src="./assets/project4.png" class="project-img" alt="age Calculator">
+            <div class="project-layer">
+                <h4>Age Calculator</h4>
+                <a href="https://age-calculator-b47e73.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/CodeAlpha_Age--calculator" class="btn-btn">Github</a>
+            </div>
+           </div>
+           <div class="project-box">
+            <img src="./assets/project3.png" class="project-img" alt="quiz">
+            <div class="project-layer">
+                <h4>Quiz</h4>
+                <a href="https://quiz-app-site-05d2e4.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/Quiz" class="btn-btn">Github</a>
+            </div>
+           </div>
+           <div class="project-box">
+            <img src="./assets/project6.png" class="project-img" alt="">
+            <div class="project-layer">
+                <h4>Stop Watch</h4>
+                <a href="https://stop-watch-ab8.netlify.app/" class="btn-btn">Live</a>
+                <a href="https://github.com/duraisamy-git/PRODIGY_WD_02" class="btn-btn">Github</a>
+            </div>
+           </div>
+       </div>
+    </section>
+    
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 heading-contact>Contact  <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <hr />
+    <!-- footer  -->
+    <footer class="footer">
+       
+        <div class="social">
+            <a href="https://www.linkedin.com/in/duraisamy-v/"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/duraisamy-git?tab=repositories"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxs-envelope' ></i></a>
+             
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Duraisamy | All rights reserverd 2024
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
